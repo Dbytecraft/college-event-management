@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="navbar">
+    <img src="logo.png">
+    <div class="navbar-right">
+        <a class="nav-btn">My Registrations</a>
+        <span>Hi, Student Name</span>
+        <a class="nav-btn" style="background:#dc3545;">Logout</a>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Event Management Dashboard</h1>
+
+    <!-- Search Bar -->
+    <input type="text" placeholder="Search" style="
+        width:100%; padding:14px; border-radius:6px; border:1px solid #ccc;
+    ">
+
+    <h2 style="margin-top:25px;">Create New Event</h2>
+
+    <div style="
+        background:white; padding:20px;
+        border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    ">
+        <label>Event Title</label>
+        <input type="text" style="width:100%; padding:10px;">
+
+        <label>Description</label>
+        <textarea style="width:100%; padding:10px;"></textarea>
+
+        <label>Date & Time</label>
+        <input type="datetime-local" style="width:100%; padding:10px;">
+
+        <label>Venue</label>
+        <input type="text" style="width:100%; padding:10px;">
+
+        <button class="btn-main" style="margin-top:15px;">Publish / Request Approval</button>
+    </div>
+
+</div>
+
+</body>
+</html>
